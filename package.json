@@ -9,18 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.2.12",
+    "@prisma/client": "^5.18.0",
+    "axios": "^1.7.3",
+    "cloudinary": "^2.4.0",
+    "dayjs": "^1.11.12",
+    "filesize": "^10.1.4",
+    "lucide-react": "^0.424.0",
+    "next": "14.2.5",
+    "next-cloudinary": "^6.9.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@types/node": "^20.14.14",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "daisyui": "^4.12.10",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "prisma": "^5.18.0",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }
